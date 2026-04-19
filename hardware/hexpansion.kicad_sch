@@ -1818,7 +1818,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -8.89 1.27 0)
 					(length 2.54)
 					(name "DO"
@@ -1836,7 +1836,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -8.89 -1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -1854,7 +1854,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 8.89 1.27 180)
 					(length 2.54)
 					(name "VDD"
@@ -1872,7 +1872,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 8.89 -1.27 180)
 					(length 2.54)
 					(name "DI"
@@ -2677,6 +2677,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "<- Great Britain"
+		(exclude_from_sim no)
+		(at 1077.468 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c241665-0c09-4163-b3a0-c2f2b3f52605")
+	)
+	(text "Ireland ->"
+		(exclude_from_sim no)
+		(at 1102.36 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc167381-a3a0-4fb2-adcd-f21f2d5410fb")
+	)
 	(junction
 		(at 488.95 90.17)
 		(diameter 0)
@@ -3057,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 86.36) (xy 144.78 86.36)
+			(xy 181.61 83.82) (xy 173.99 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4087,6 +4107,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 85.09) (xy 96.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e450dff-6a0b-4af8-9975-abdb62cfd01c")
+	)
+	(wire
+		(pts
 			(xy 765.81 67.31) (xy 783.59 67.31)
 		)
 		(stroke
@@ -4657,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 144.78 88.9)
+			(xy 186.69 86.36) (xy 173.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5144,6 +5174,16 @@
 			(type default)
 		)
 		(uuid "5bb651c8-f2a6-4589-9bbd-d1ddf334a07c")
+	)
+	(wire
+		(pts
+			(xy 97.79 82.55) (xy 96.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbbc518-d66b-489a-b217-4321f0169c6b")
 	)
 	(wire
 		(pts
@@ -7187,7 +7227,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 144.78 91.44)
+			(xy 194.31 88.9) (xy 173.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9046,7 +9086,7 @@
 		(uuid "2bbe57df-9788-43f8-b8e3-a09b582d609d")
 	)
 	(label "HS_I"
-		(at 157.48 88.9 0)
+		(at 186.69 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9126,7 +9166,7 @@
 		(uuid "4ca7323a-4879-486b-8c0d-15a07c169b77")
 	)
 	(label "HS_I"
-		(at 96.52 85.09 0)
+		(at 97.79 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9146,7 +9186,7 @@
 		(uuid "4d923562-83d9-4c56-986a-209b8d55f019")
 	)
 	(label "GND"
-		(at 152.4 86.36 0)
+		(at 181.61 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9316,7 +9356,7 @@
 		(uuid "8a11c73a-9a3c-49da-8e4b-2c3bf560c8e1")
 	)
 	(label "HS_H"
-		(at 96.52 82.55 0)
+		(at 97.79 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10045,7 +10085,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 91.44 0)
+		(at 194.31 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10053,7 +10093,7 @@
 		(dnp no)
 		(uuid "05cd0a9b-534f-49ec-9993-d8cd653150cb")
 		(property "Reference" "#PWR064"
-			(at 165.1 95.25 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10062,7 +10102,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.64 91.186 0)
+			(at 196.85 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +10110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 91.44 0)
+			(at 194.31 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 91.44 0)
+			(at 194.31 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 91.44 0)
+			(at 194.31 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14405,7 +14445,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 139.7 88.9 0)
+		(at 168.91 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14414,7 +14454,7 @@
 		(fields_autoplaced yes)
 		(uuid "53ce7ab1-b9d6-4981-9df0-1b2e2c9d4bb0")
 		(property "Reference" "J2"
-			(at 140.335 81.28 0)
+			(at 169.545 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,7 +14462,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 140.335 83.82 0)
+			(at 169.545 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,7 +14470,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm"
-			(at 139.7 88.9 0)
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,7 +14479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 88.9 0)
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14488,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 139.7 88.9 0)
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22824,7 +22864,7 @@
 	)
 	(sheet
 		(at 416.56 33.02)
-		(size 867.41 162.56)
+		(size 1033.78 163.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22848,7 +22888,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 416.56 196.1646 0)
+			(at 416.56 197.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
