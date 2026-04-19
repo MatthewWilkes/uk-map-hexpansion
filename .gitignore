@@ -1,0 +1,6 @@
+hardware/production/*
+hardware/hexpansion-backups/*
+hardware/~*
+hardware/#auto_save*
+*.db
+*.geojson

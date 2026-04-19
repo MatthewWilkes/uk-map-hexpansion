@@ -1,0 +1,9 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U6,U3,U4,U5,U7";"LED-SMD_4P-L2.0-W1.8_XL-0807RGBC-WS2812B-S";5;"XL-0807RGBC-WS2812B-S";;;
+2;"C3,C1,C2";"C_0603_1608Metric";3;"1uF";;;
+3;"CGQ1";"OPTO-SMD_4P-L3.9-W3.4_IRM-H432M3-R8";1;"DY-IRMHF384-T05-2.5KB";;;
+4;"U2";"TSSOP-8_L4.4-W3.0-P0.65-LS6.4-BL";1;"ZD24C64A-XGMT";;;
+5;"H1,H2";"MountingHole_2.2mm_M2_Pad_Via";2;"MountingHole_Pad";;;
+6;"R3,R2";"R_0603_1608Metric";2;"4k7";;;
+7;"R1";"R_0603_1608Metric";1;"47";;;
+8;"U1";"SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR";1;"AP3602AKTR-G1";;;
