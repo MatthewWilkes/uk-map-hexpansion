@@ -4,3 +4,4 @@ hardware/~*
 hardware/#auto_save*
 *.db
 *.geojson
+hardware/_autosave*
