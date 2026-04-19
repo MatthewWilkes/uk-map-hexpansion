@@ -14032,6 +14032,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 82.55 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9da3dda-834b-4d0a-83b6-463c5a0433c4")
 		)
@@ -15107,6 +15116,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C86295"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -17142,6 +17160,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14675"
+			(at 82.55 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19848,6 +19875,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C137684"
+			(at 92.71 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a284110-139c-4f38-a8ec-76e4e01d5e70")
 		)
@@ -21116,6 +21152,15 @@
 			)
 		)
 		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+			(at 74.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C84817"
 			(at 74.93 134.62 0)
 			(effects
 				(font
